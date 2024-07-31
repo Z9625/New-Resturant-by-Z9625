@@ -1,0 +1,249 @@
+@media (max-width: 768px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .head {
+      width: 100%;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .head .d2 {
+      display: none;
+    }
+    .head .d1 {
+      width: 50%;
+    }
+    .head .d1 .circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .head .d3 {
+      width: 50%;
+    }
+    .sec1 {
+      width: 100%;
+      min-height: 200vh;
+    }
+    .sec1 .both {
+      width: 100%;
+      min-height: 100vh;
+      position: relative;
+      flex-direction: column-reverse;
+    }
+    .sec1 .both .bd2 {
+      margin-top: 500px;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .sec1 .both .bd2 img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .sec1 .both .bd1 {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+    .sec1 .both .bd1 .btn2 {
+      width: 93px;
+      height: 25px;
+      top: 132px;
+      left: 25px;
+      gap: 0px;
+      border-radius: 126px;
+      opacity: 0.2px;
+      font-family: Raleway;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 13.2px;
+      text-align: left;
+      margin-left: 50px;
+    }
+    .sec1 .both .bd1 h1 {
+      font-family: Raleway;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 60px;
+      text-align: left;
+      color: #311f09;
+      margin-left: 50px;
+    }
+    .sec1 .both .bd1 p {
+      width: 70%;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: #5c4529;
+      margin-left: 50px;
+      margin-top: -20px;
+    }
+    .sec1 .both .bd1 .btn3 {
+      position: absolute;
+      margin-left: 200px;
+      width: 100px;
+      height: 44.55px;
+      margin-left: 50px;
+      border-radius: 97.52px;
+      opacity: 0px;
+    }
+    .sec1 .both .bd1 .btn4 {
+      position: absolute;
+      margin-left: 200px;
+      width: 100px;
+      height: 44.55px;
+      margin-left: 180px;
+      border-radius: 97.52px;
+      opacity: 0px;
+    }
+    .sec2 {
+      width: 100%;
+      height: 200vh;
+      position: relative;
+      flex-direction: column-reverse;
+    }
+    .sec2 .sec2-text-div {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+    }
+    .sec2 .sec2-text-div h1 {
+      font-family: Tinos;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 40.25px;
+      margin-left: 50px;
+    }
+    .sec2 .sec2-text-div h1 span {
+      font-family: Tinos;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 40.25px;
+      text-align: left;
+    }
+    .sec2 .sec2-text-div .p1 {
+      font-family: sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: #5c4529;
+      width: 80%;
+      margin-left: 50px;
+    }
+    .sec2 .sec2-text-div button {
+      width: 168px;
+      height: 55px;
+      top: 1176px;
+      left: 25px;
+      gap: 0px;
+      border-radius: 162.94px;
+      opacity: 0px;
+      margin-left: 50px;
+    }
+    .sec2 .sec2-text-div button .p {
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 28px;
+      color: #fff;
+      text-align: center;
+    }
+    .sec2 .sec2-img-div {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -200px;
+    }
+    .sec2 .sec2-img-div img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .sec3-menu {
+      width: 100%;
+      min-height: 250vh;
+      position: relative;
+    }
+    .sec3-menu header {
+      width: 100%;
+      min-height: 100px;
+      position: relative;
+    }
+    .sec3-menu header .sec3-head-h1-div {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .sec3-menu header .sec3-head-h1-div h1 {
+      font-family: sans-serif;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 40.25px;
+      text-align: center;
+      color: #311f09;
+    }
+    .sec3-menu header .sec3-head-choose-btn {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .sec3-menu header .sec3-head-choose-btn .btn1 {
+      display: none;
+    }
+    .sec3-menu header .sec3-head-choose-btn .btn {
+      font-family: sans-serif;
+      width: 110px;
+      height: 40px;
+      border-radius: 52.12px;
+      opacity: 0px;
+    }
+    .sec3-menu header .sec3-head-choose-btn .btn a {
+      font-family: sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 24px;
+      text-align: left;
+    }
+    .sec3-menu .sec3-body {
+      width: 100%;
+    }
+    .sec3-menu .sec3-body .body-top {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+    .sec3-menu .sec3-body .body-top .card {
+      width: 100%;
+      height: auto;
+      padding: 10px 20px;
+    }
+    .sec3-menu .sec3-body .body-top .card .stars i {
+      color: #ff8a00;
+    }
+    .sec3-menu .sec3-body .body-top .card button {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .sec3-footer {
+      display: none;
+    }
+  }
